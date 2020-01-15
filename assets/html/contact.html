@@ -23,11 +23,8 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">Sticky top</a>
-      </nav> -->
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Contact Me</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,13 +40,28 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../html/about.html">About</a>
-                        <a class="dropdown-item" href="https://www.linkedin.com/in/kirk-mcglamery-4899a82/" target="_blank">LinkedIN</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/kirk-mcglamery-4899a82/"
+                            target="_blank">LinkedIN</a>
                         <a class="dropdown-item" href="https://github.com/kirkm72" target="_blank">GitHUB</a>
                         <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="../html/portfolio.html">Portfolio</a>
+                        <a class="dropdown-item" href="../../index.html">Home</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <form id="contactForm" action="mailto:kirkm72@att.net" method="post" enctype="text/plain">
+        <p>Name: <input type="text" name="name"/></p>
+        <p>Email: <input type="text" name="email"/></p>
+        <p>Message:
+          <br />
+          <textarea class="form-control z-depth-1" name="comments" rows = "12">Send me an email!!.</textarea>
+          <br>
+        <p><input class="button" type="submit" name="submit" value="Send" />
+          <input class="button" type="reset" name="reset" value="Clear Form" />
+        </p>
+      </form>
 
 </body>
