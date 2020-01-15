@@ -1,4 +1,31 @@
 body{
     background: url(../images/topographic.png) top center no-repeat;
     background-repeat: repeat;
+    /* font-family: 'Audiowide', cursive;
+    font-size: 25px; */
+  }
+
+  .navbar-brand{
+    width: 265px;
+    float: left;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    font-weight: 720;
+    line-height: 95px;
+    text-align: center;
+  }
+
+  .dropdown-menu{
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+    /* font-weight: 720;
+    line-height: 95px; */
+    /* text-align: center; */
+  }
+  .dropdown{
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    /* font-weight: 720;
+    line-height: 95px; */
+    text-align: center;
   }
