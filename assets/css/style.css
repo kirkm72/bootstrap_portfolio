@@ -18,14 +18,24 @@ body{
   .dropdown-menu{
     font-family: 'Audiowide', cursive;
     font-size: 15px;
-    /* font-weight: 720;
-    line-height: 95px; */
-    /* text-align: center; */
   }
   .dropdown{
     font-family: 'Audiowide', cursive;
     font-size: 25px;
-    /* font-weight: 720;
-    line-height: 95px; */
     text-align: center;
+  }
+  .about{
+    font-family: 'Audiowide', cursive;
+    /* font-size: 25px; */
+    color: white
+  }
+  #contactForm{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: white
+  }
+  .portfolio{
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    color: white
   }
